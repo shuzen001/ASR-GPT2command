@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "767643826950",
+    "project_id": "moodydoghohoho",
+    "storage_bucket": "moodydoghohoho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767643826950:android:6d5bc023c11b45ab037c87",
+        "android_client_info": {
+          "package_name": "com.HOHOHO.MoodyDog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767643826950-l8optsgpr5es1t0fq53l6opmp94vm9ov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HOHOHO.MoodyDog",
+            "certificate_hash": "643ae151627451ade6cc5f27706afb08225306b2"
+          }
+        },
+        {
+          "client_id": "767643826950-nmmavsp15fc8qk22hihfnjt33011ruj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFzxFr4gpa7aYZ2Euf5H67hSwqifOQPF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767643826950-nmmavsp15fc8qk22hihfnjt33011ruj4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "767643826950-q1c3ti3jjbr2ggmomecsiaps52jq8ilm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.HOHOHO.MoodyDog"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{425C5675-683C-494D-2732-7CE40C0F3893}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Samples/5 - Streaming/StreamingSampleMic.cs">
+    <Files>
+      <File FileName="Assets/Samples/5 - Streaming/StreamingSampleMic.cs" Line="40" Column="1" />
+      <File FileName="Packages/com.whisper.unity/Runtime/WhisperStream.cs" Line="176" Column="62" />
+      <File FileName="Packages/com.whisper.unity/Runtime/WhisperWrapper.cs" />
+      <File FileName="Packages/com.whisper.unity/Runtime/WhisperManager.cs" />
+      <File FileName="Packages/com.whisper.unity/Runtime/WhisperParams.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="whisper.unity" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Samples" expanded="True">
+                <Node name="5 - Streaming" expanded="True">
+                  <Node name="StreamingSampleMic.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="StreamingAssets" expanded="True" />
+            </Node>
+            <Node name="Packages" expanded="True">
+              <Node name="com.whisper.unity" expanded="True">
+                <Node name="Plugins" expanded="True" />
+                <Node name="Runtime" expanded="True">
+                  <Node name="Native" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dc634a40-5f62-4011-942d-329d12108d1b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
