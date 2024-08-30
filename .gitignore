@@ -41,4 +41,7 @@ ExportedObj/
 .DS_Store
 .idea/
 
+ggml-base.bin
+ggml-base.bin.meta
+
 
