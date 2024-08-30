@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +23,6 @@ namespace Whisper.Samples
         public Text text;
         public ScrollRect scroll;
         private WhisperStream _stream;
-
         private GptApiClient _client;
 
         private async void Start()
@@ -35,7 +36,10 @@ namespace Whisper.Samples
             microphoneRecord.OnRecordStop += OnRecordStop;
             button.onClick.AddListener(OnButtonPressed);
 
-            string apiKey = ""; // Replace with your OpenAI API key
+            LoadEnvFile(Application.dataPath + "/Samples/5 - Streaming/.env");
+            string apiKey = Environment.GetEnvironmentVariable("API_KEY"); // Replace with your OpenAI API key
+            Debug.Log("API Key: " + apiKey);
+
             _client = new GptApiClient(apiKey);
 
             string prompt = "";
@@ -44,6 +48,28 @@ namespace Whisper.Samples
             if (command != null)
             {
                 Debug.Log($"Generated Command: {command}");
+            }
+        }
+
+        // Load Env File
+        static void LoadEnvFile(string filePath)
+        {
+            if (!File.Exists(filePath))
+            {
+                Debug.LogError($"File not found: {filePath}");
+                return;
+            }
+
+            foreach (var line in File.ReadAllLines(filePath))
+            {
+                if (string.IsNullOrWhiteSpace(line) || line.StartsWith("#"))
+                    continue;
+
+                var parts = line.Split('=', 2);
+                if (parts.Length == 2)
+                {
+                    Environment.SetEnvironmentVariable(parts[0].Trim(), parts[1].Trim());
+                }
             }
         }
 
@@ -128,7 +154,7 @@ namespace Whisper.Samples
         public Message[] messages;
         public int max_tokens;
         public double temperature;
-        public bool stream;
+        // public bool stream;
     }
 
     [System.Serializable]
@@ -173,7 +199,7 @@ namespace Whisper.Samples
                 },
                 max_tokens = 100,
                 temperature = 0.7,
-                stream = true
+                // stream = true
             };
 
             var json = JsonUtility.ToJson(requestBody);
