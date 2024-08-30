@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638605855020000000
+      ticks: 638605943260000000
     m_Hash: 1450463935
   m_LockFileStatus:
     m_FilePath: /Users/daniel/code/Project_Pet/ASR-GPT2command/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638605855020000000
+      ticks: 638605943260000000
     m_Hash: 3045331844
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
@@ -23,7 +23,7 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638605855020000000
+        ticks: 638605943260000000
       m_Hash: 4221965563
 m_LocalPackages:
   m_LocalFileStatus: []
@@ -300,7 +300,7 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: Unity Test Framework
+  category: 
   type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 4
@@ -664,18 +664,18 @@ m_ResolvedPackages:
     - 1.8.7
     verified: 1.6.5
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -2631,7 +2631,7 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: Libraries
+  category: 
   type: asset
   description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
     version 3.5 and works with all platforms, il2cpp and Mono AOT.
