@@ -36,3 +36,9 @@ ExportedObj/
 *.mdb.meta
 
 
+.env
+
+.DS_Store
+.idea/
+
+
